@@ -1,5 +1,23 @@
 import { motion } from "framer-motion";
 import React, { useRef } from "react";
+import Image from "next/image";
+import HTML from "../../public/images/logo/html.png";
+import JAVASCRIPT from "../../public/images/logo/js.png";
+import CSS from "../../public/images/logo/css.png";
+import REACT from "../../public/images/logo/react.png";
+import NEXT from "../../public/images/logo/nextjs.png";
+import TAILWIND from "../../public/images/logo/tailwind.png";
+import NPM from "../../public/images/logo/npm.png";
+import CHROMEDEVTOOLS from "../../public/images/logo/chromedevtools.png";
+import VSCODE from "../../public/images/logo/vscode.png";
+import SLACK from "../../public/images/logo/slack.png";
+import WEBPACK from "../../public/images/logo/webpack.png";
+import FIGMA from "../../public/images/logo/figma.png";
+import MONGODB from "../../public/images/logo/mongodb.png";
+import SASS from "../../public/images/logo/sass.png";
+import MONGOOSE from "../../public/images/logo/mongoose.png";
+import WORDPRESS from "../../public/images/logo/wordpress.png";
+import MYSQL from "../../public/images/logo/mysql.png";
 
 const Skill = ({ name, x, y }) => {
   const ref = useRef(null);
@@ -22,40 +40,264 @@ const Skill = ({ name, x, y }) => {
 
 const Skills = () => {
   const ref = useRef(null);
+
   return (
     <>
-      <h2 className="font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32">
-        Skills
-      </h2>
-      <div
-        ref={ref}
-        className="w-full h-[100vh] relative bg-circularLight dark:bg-circularDark  flex items-center justify-center 
-      mb-64 md:mb-32 rounded-full
-      lg:bg-circularLightLg lg:dark:bg-circularDarkLg md:bg-circularLightMd md:dark:bg-circularDarkMd 
-      sm:bg-circularLightSm sm:dark:bg-circularDarkSm lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] 
-      "
-      >
-        <motion.div
-          whileHover={{ scale: 1.05 }}
-          className="cursor-pointer flex rounded-full font-semibold bg-dark text-light p-8 shadow-dark
-        dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2
-        "
-        >
-          Web
-        </motion.div>
+      <div className="text-center">
+        <h1 className="text-4xl font-bold mt-16 mb-8">Confortable</h1>
+      </div>
+      <div className="w-full mx-auto flex items-center space-x-16 justify-center">
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={CSS} // Remplacez par le chemin de votre logo HTML5
+              alt="HTML5 Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">HTML 5</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={TAILWIND} // Remplacez par le chemin de votre logo HTML5
+              alt="HTML5 Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">HTML 5</p>
+        </div>
 
-        <Skill name="HTML" x="-20vw" y="2vw" />
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={REACT} // Remplacez par le chemin de votre logo HTML5
+              alt="HTML5 Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">HTML 5</p>
+        </div>
 
-        <Skill name="CSS/Sass" x="-5vw" y="-10vw" />
-        <Skill name="JavaScript" x="20vw" y="6vw" />
-        <Skill name="ReactJS" x="0vw" y="12vw" />
-        <Skill name="NextJS" x="-20vw" y="-15vw" />
-        <Skill name="Express/MongoDb" x="15vw" y="-12vw" />
-        <Skill name="Github" x="-35vw" y="-5vw" />
-        <Skill name="Web Design" x="32vw" y="-5vw" />
-        <Skill name="Figma" x="0vw" y="-20vw" />
-        <Skill name="Vite" x="-25vw" y="18vw" />
-        <Skill name="Tawilwind CSS" x="28vw" y="18vw" />
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={NEXT} // Remplacez par le chemin de votre logo HTML5
+              alt="HTML5 Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">HTML 5</p>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={HTML} // Remplacez par le chemin de votre logo HTML5
+              alt="HTML5 Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">HTML 5</p>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={JAVASCRIPT} // Remplacez par le chemin de votre logo JavaScript
+              alt="JavaScript Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">JavaScript</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={SASS} // Remplacez par le chemin de votre logo JavaScript
+              alt="JavaScript Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">JavaScript</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={NPM} // Remplacez par le chemin de votre logo JavaScript
+              alt="JavaScript Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">JavaScript</p>
+        </div>
+      </div>
+
+      {/* ////////////////////////////////////////////////////////////////////////////////////////////// */}
+      <div className="text-center">
+        <h1 className="text-4xl font-bold mt-16 mb-8">Familier</h1>
+      </div>
+      <div className="w-full mx-auto flex items-center space-x-16 justify-center">
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={MONGODB} // Remplacez par le chemin de votre logo HTML5
+              alt="HTML5 Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">HTML 5</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={TAILWIND} // Remplacez par le chemin de votre logo HTML5
+              alt="HTML5 Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">HTML 5</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={MONGOOSE} // Remplacez par le chemin de votre logo HTML5
+              alt="HTML5 Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">HTML 5</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={WORDPRESS} // Remplacez par le chemin de votre logo HTML5
+              alt="HTML5 Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">HTML 5</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={MYSQL} // Remplacez par le chemin de votre logo HTML5
+              alt="HTML5 Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">HTML 5</p>
+        </div>
+      </div>
+
+      {/* ////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+      <div className="text-center">
+        <h1 className="text-4xl font-bold mt-16 mb-8">Outils</h1>
+      </div>
+      <div className="w-full mx-auto flex items-center space-x-16 justify-center">
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={NPM} // Remplacez par le chemin de votre logo HTML5
+              alt="HTML5 Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">HTML 5</p>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={CHROMEDEVTOOLS} // Remplacez par le chemin de votre logo HTML5
+              alt="HTML5 Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">HTML 5</p>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={VSCODE} // Remplacez par le chemin de votre logo HTML5
+              alt="HTML5 Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">HTML 5</p>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={SLACK} // Remplacez par le chemin de votre logo HTML5
+              alt="HTML5 Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">HTML 5</p>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={WEBPACK} // Remplacez par le chemin de votre logo JavaScript
+              alt="JavaScript Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">JavaScript</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="h-12 w-12 relative">
+            <Image
+              src={FIGMA} // Remplacez par le chemin de votre logo JavaScript
+              alt="JavaScript Logo"
+              layout="fill"
+              objectFit="contain"
+              priority
+            />
+          </div>
+          <p className="mt-1 text-sm font-semibold">JavaScript</p>
+        </div>
       </div>
     </>
   );
