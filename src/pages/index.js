@@ -30,6 +30,10 @@ export default function Home() {
         <Layout className="!pt-0 md:!pt-16 sm:!pt-16">
           <div className="flex w-full items-start justify-between md:flex-col">
             <div className="w-1/2 lg:hidden md:inline-block md:w-full">
+              <AnimatedText
+                text="Pierre-Jean SAPPEY-MARINIER"
+                className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
+              />
               <Image
                 src={profilePic}
                 alt="Pinguin"
@@ -78,7 +82,7 @@ export default function Home() {
           </div>
         </Layout>
 
-        <HireMe />
+        {/* <HireMe /> */}
         <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
           <Image
             className="relative h-auto w-full"
