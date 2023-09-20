@@ -66,25 +66,26 @@ export default function About() {
               </h2>
               <p className="font-medium ">
                 Bonjour, je suis <strong>Pierre-Jean</strong>, un développeur
-                web avec un an d'expérience. Passionné par la création
-                d'expériences numériques belles, fonctionnelles et centrées sur
-                l'utilisateur, je suis toujours à la recherche de moyens
-                nouveaux et innovants pour donner vie aux visions de mes
+                web avec un an d&apos;expérience. Passionné par la création
+                d&apos;expériences numériques belles, fonctionnelles et centrées
+                sur l&apos;utilisateur, je suis toujours à la recherche de
+                moyens nouveaux et innovants pour donner vie aux visions de mes
                 clients.
               </p>
               <p className="my-4 font-medium">
                 En tant que développeur junior, ma reconversion professionnelle
-                m'a dirigé vers les technologies React, JavaScript, Next.js et
-                TypeScript. Fort de ces compétences, je conçois et développe des
-                interfaces utilisateur réactives.
+                m&apos;a dirigé vers les technologies React, JavaScript, Next.js
+                et TypeScript. Fort de ces compétences, je conçois et développe
+                des interfaces utilisateur réactives.
               </p>
               <p className="font-medium">
                 Que je travaille sur un site web, une application mobile ou tout
-                autre produit numérique, j'apporte mon engagement envers
-                l'excellence en matière de développement et ma philosophie
-                centrée sur l'utilisateur à chaque projet sur lequel je
-                travaille. J'attends avec impatience l'opportunité de mettre mes
-                compétences et ma passion au service de votre prochain projet.
+                autre produit numérique, j&apos;apporte mon engagement envers
+                l&apos;excellence en matière de développement et ma philosophie
+                centrée sur l&apos;utilisateur à chaque projet sur lequel je
+                travaille. J&apos;attends avec impatience l&apos;opportunité de
+                mettre mes compétences et ma passion au service de votre
+                prochain projet.
               </p>
             </div>
             <div
@@ -144,7 +145,7 @@ export default function About() {
                   className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm"
                 >
-                  Années d'expérience
+                  Années d&apos;expérience
                 </h2>
               </div>
             </div>
