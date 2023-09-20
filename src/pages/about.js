@@ -56,7 +56,7 @@ export default function About() {
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
-          <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
+          <div className="grid w-full grid-cols-8 gap-16 sm:gap-8 mb-52">
             <div
               className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 
             md:col-span-8"
