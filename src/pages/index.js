@@ -31,7 +31,7 @@ export default function Home() {
           <div className="flex w-full items-start justify-between md:flex-col">
             <div className="w-1/2 lg:hidden md:inline-block md:w-full">
               <AnimatedText
-                text="Pierre-Jean SAPPEY-MARINIER"
+                text="Pierre-Jean SAPEY-MARINIER"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <Image

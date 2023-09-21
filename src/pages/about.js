@@ -52,7 +52,7 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Qui Suis-Je ?"
+            text="Qui suis-je ?"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
@@ -88,6 +88,19 @@ export default function About() {
                 prochain projet.
               </p>
             </div>
+
+            {/* Après avoir commencé ma carrière dans le domaine des ressources humaines, j'ai acquis des compétences solides en communication et en écoute, ainsi qu'une bonne capacité d'adaptation.
+
+Toujours curieuse de découvrir de nouveaux domaines et souhaitant constamment acquérir de nouvelles connaissances, j'ai choisi de me reconvertir dans le domaine du développement web afin de concilier métier passionnant, créatif et challengeant.
+
+Ainsi, j'ai intégré Ada Tech School en janvier 2023, dans le but de me former en développement Full Stack. J'ai été séduite par la "vision" d'Ada tech School, une école inclusive dans laquelle nous apprenons à apprendre et "par le faire".
+
+Je suis à la recherche d'une opportunité d'alternance de 12 mois à partir d'octobre 2023 afin de mettre en pratique mes compétences et continuer à acquérir des connaissances dans le domaine du développement web.
+
+Je suis motivée à contribuer activement au succès de mon entreprise d'accueil tout en continuant à apprendre et à évoluer professionnellement. Je suis ouverte à toutes les opportunités qui me permettraient de réaliser mon potentiel et de faire une différence au sein de votre entreprise.
+
+N'hésitez pas à me contacter si vous souhaitez en savoir plus sur mon parcours ou discuter de toute collaboration potentielle. */}
+
             <div
               className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
             bg-light p-8 dark:border-light dark:bg-dark
@@ -99,6 +112,15 @@ export default function About() {
                 bg-dark
         dark:bg-light  "
               />
+
+              {/* Au cours de mes formations et expériences professionnelles, j'ai acquis diverses compétences, y compris des compétences comportementales, aussi bien dans des grandes structures que des petites entreprises.
+
+Je suis actuellement en formation pour développer mes compétences techniques en utilisant différents outils et langages. Mon objectif est de devenir une développeuse fullstack polyvalente.
+
+J'ai une solide base en développement web, maîtrisant des langages tels que JavaScript, HTML et CSS, ainsi que des frameworks comme React.js et Node.js. J'ai également des connaissances en bases de données, notamment avec MySQL et MongoDB.
+
+Je suis une apprenante passionnée, toujours ouverte aux nouveaux défis. Ma capacité à m'adapter rapidement et mon approche proactive me permettent de m'engager pleinement dans des projets complexes et de trouver des solutions créatives. */}
+
               <Image
                 className="h-auto w-full rounded-2xl"
                 src={profile}
@@ -150,7 +172,9 @@ export default function About() {
               </div>
             </div>
           </div>
-
+          <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
+            Compétences
+          </h2>
           <Skills />
           <Experience />
           <Education />

@@ -1,6 +1,32 @@
 import { useRef } from "react";
 import Image from "next/image";
 
+const confortableSkillsData = [
+  { name: "JavaScript", src: "/images/logo/js.png" },
+  { name: "React.js", src: "/images/logo/react.png" },
+  { name: "Next.js", src: "/images/logo/nextjs.png" },
+  { name: "HTML 5", src: "/images/logo/html.png" },
+  { name: "CSS", src: "/images/logo/css.png" },
+  { name: "Sass", src: "/images/logo/sass.png" },
+  { name: "Webpack", src: "/images/logo/webpack.png" },
+];
+
+const familiarSkillsData = [
+  { name: "Tailwind CSS", src: "/images/logo/tailwind.png" },
+  { name: "MongoDB", src: "/images/logo/mongodb.png" },
+  { name: "Mongoose", src: "/images/logo/mongoose.png" },
+  { name: "WordPress", src: "/images/logo/wordpress.png" },
+  { name: "MySQL", src: "/images/logo/mysql.png" },
+];
+
+const toolsData = [
+  { name: "NPM", src: "/images/logo/npm.png" },
+  { name: "DevTools", src: "/images/logo/chromedevtools.png" },
+  { name: "VS Code", src: "/images/logo/vscode.png" },
+  { name: "Slack", src: "/images/logo/slack.png" },
+  { name: "Figma", src: "/images/logo/figma.png" },
+];
+
 const Skill = ({ name, src }) => {
   return (
     <div className="flex flex-col items-center">
@@ -34,34 +60,6 @@ const SkillCategory = ({ title, skills }) => {
 };
 
 const Skills = () => {
-  const ref = useRef(null);
-
-  const confortableSkillsData = [
-    { name: "JavaScript", src: "/images/logo/js.png" },
-    { name: "React.js", src: "/images/logo/react.png" },
-    { name: "Next.js", src: "/images/logo/nextjs.png" },
-    { name: "HTML 5", src: "/images/logo/html.png" },
-    { name: "CSS", src: "/images/logo/css.png" },
-    { name: "Sass", src: "/images/logo/sass.png" },
-    { name: "Webpack", src: "/images/logo/webpack.png" },
-  ];
-
-  const familiarSkillsData = [
-    { name: "Tailwind CSS", src: "/images/logo/tailwind.png" },
-    { name: "MongoDB", src: "/images/logo/mongodb.png" },
-    { name: "Mongoose", src: "/images/logo/mongoose.png" },
-    { name: "WordPress", src: "/images/logo/wordpress.png" },
-    { name: "MySQL", src: "/images/logo/mysql.png" },
-  ];
-
-  const toolsData = [
-    { name: "NPM", src: "/images/logo/npm.png" },
-    { name: "DevTools", src: "/images/logo/chromedevtools.png" },
-    { name: "VS Code", src: "/images/logo/vscode.png" },
-    { name: "Slack", src: "/images/logo/slack.png" },
-    { name: "Figma", src: "/images/logo/figma.png" },
-  ];
-
   return (
     <>
       <SkillCategory title="Confortable" skills={confortableSkillsData} />
